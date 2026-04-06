@@ -6,7 +6,8 @@ use App\Models\auth\AuthModel;
 
 class LoginController extends StructureController
 {
-
+    protected $input;
+    protected $auth_model;
     function __construct()
     {
         $this->input = \Config\Services::request();

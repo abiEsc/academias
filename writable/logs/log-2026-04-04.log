@@ -1749,3 +1749,173 @@ Stack trace:
 #9 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
 #11 {main}
+ERROR - 2026-04-04 16:42:54 --> mysqli_sql_exception: Table 'academias.articulo' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT articulo...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT articulo...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT articulo...')
+#3 /var/www/html/app/Models/ProductoModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT articulo...')
+#4 /var/www/html/app/Controllers/Home.php(35): App\Models\ProductoModel->recuperar_productos('1')
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-04-04 16:42:54 --> Call to a member function getResultArray() on bool
+in APPPATH/Models/ProductoModel.php on line 22.
+ 1 APPPATH/Controllers/Home.php(35): App\Models\ProductoModel->recuperar_productos('1')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-04-04 16:42:55 --> mysqli_sql_exception: Table 'academias.articulo' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT articulo...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT articulo...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT articulo...')
+#3 /var/www/html/app/Models/ProductoModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT articulo...')
+#4 /var/www/html/app/Controllers/Home.php(35): App\Models\ProductoModel->recuperar_productos('1')
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-04-04 16:42:55 --> Call to a member function getResultArray() on bool
+in APPPATH/Models/ProductoModel.php on line 22.
+ 1 APPPATH/Controllers/Home.php(35): App\Models\ProductoModel->recuperar_productos('1')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-04-04 16:43:10 --> mysqli_sql_exception: Table 'academias.articulo' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT articulo...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT articulo...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT articulo...')
+#3 /var/www/html/app/Models/ProductoModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT articulo...')
+#4 /var/www/html/app/Controllers/Home.php(35): App\Models\ProductoModel->recuperar_productos('1')
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-04-04 16:43:10 --> mysqli_sql_exception: Table 'academias.galeria' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM g...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM g...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM g...')
+#3 /var/www/html/app/Models/GeneralModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM g...')
+#4 /var/www/html/app/Controllers/Home.php(37): App\Models\GeneralModel->listar_galeria()
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-04-04 16:43:10 --> mysqli_sql_exception: Table 'academias.curso' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT c.curso_...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.curso_...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.curso_...')
+#3 /var/www/html/app/Models/CursoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT c.curso_...')
+#4 /var/www/html/app/Controllers/Home.php(39): App\Models\CursoModel->recuperar_cursos()
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-04-04 16:43:10 --> mysqli_sql_exception: Table 'academias.cliente' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT usuario_...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario_...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario_...')
+#3 /var/www/html/app/Models/ClienteModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT usuario_...')
+#4 /var/www/html/app/Controllers/Home.php(70): App\Models\ClienteModel->recuperar_cliente()
+#5 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-04-04 16:43:10 --> mysqli_sql_exception: Table 'academias.promocion' doesn't exist in /var/www/html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 /var/www/html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /var/www/html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /var/www/html/app/Models/CursoModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /var/www/html/app/Controllers/StructureController.php(37): App\Models\CursoModel->recuperar_promociones()
+#5 /var/www/html/app/Controllers/StructureController.php(30): App\Controllers\StructureController->ActualizarPromociones()
+#6 /var/www/html/app/Controllers/Home.php(93): App\Controllers\StructureController->auth('auth/login_view')
+#7 /var/www/html/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#8 /var/www/html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /var/www/html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-04-04 16:48:39 --> Creation of dynamic property App\Controllers\LoginController::$input is deprecated
+in APPPATH/Controllers/LoginController.php on line 12.
+ 1 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\LoginController::$input is deprecated', 'APPPATH/Controllers/LoginController.php', 12)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\LoginController->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:18:05 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:18:10 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:20:55 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:21:11 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:21:36 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:25:39 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:26:04 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:30:30 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-04 18:39:17 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
