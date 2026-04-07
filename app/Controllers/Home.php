@@ -114,7 +114,7 @@ class Home extends StructureController
 
     public function detalle_usuario()
     {
-        $usuario_id = $this->input->getPost("usuario_id");
+        $usuario_id = $this->request->getPost("usuario_id");
 
         $cliente = $this->cliente_model->validar_cliente($usuario_id);
 

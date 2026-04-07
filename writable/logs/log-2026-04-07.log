@@ -1,0 +1,28 @@
+CRITICAL - 2026-04-07 17:07:31 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-07 18:20:54 --> Undefined array key "usuario"
+in APPPATH/Controllers/ClienteController.php on line 50.
+ 1 APPPATH/Controllers/ClienteController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'APPPATH/Controllers/ClienteController.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ClienteController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-07 18:21:46 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-04-07 18:34:24 --> Undefined property: App\Controllers\Home::$input
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->detalle_usuario()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
